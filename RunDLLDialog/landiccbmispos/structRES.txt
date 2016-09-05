@@ -1,0 +1,22 @@
+﻿typedef struct	 
+{
+	char resp_code[2];	/*1～2位	返回码	(2字节，"00"交易成功,其他失败)*/
+	char bank_code[4];	/*3～6位	银行行号（4字节）*/
+	char card_no[30];	/*7～36位	卡号:6222 80** **** ***4 860 (S)*/
+	char expr[4];		/*37～40位	有效期	(4字节) */
+
+	char amount[12];	/*41～52位  金额（12字节，无小数点，左补0，单位：分）*/
+	char trace[6];		/*53～58位  流水号  (6字节，左对齐)*/
+	char refer[12];		/*59～70位	交易参考号*/ 
+	char auth[6];		/*71～76位  授权号*/
+	char batch[6];		/*77～82位  批次号*/
+	char date[14];		/*83～96位	交易日期（8字节,yyyymmddhhmmss格式）*/
+	
+	char userno[15];	/*97～111位	商户号*/
+	char terno[8];		/*112～119位	终端号*/
+	char old_terno[8];	/*120～127位	原终端号*/
+	char szEncTrack[32];		// 6/30/2016 新增 加密二磁道
+	char resp_chin[50];	/*  错误说明(左对齐，不足部分补空格)*/
+	
+	char lrc[3];		/*  交易数据校验码（3字节）*/
+}RESPONSE;

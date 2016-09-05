@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project RunDLLDialog -->
+<!-- Saved: 2016-07-04, 13:37:40 -->
+<!-- Copyright (C) 2016 Xuwb, Xuwb@landicorp.com -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>cd02dfad6e75e2cdc4ba9040f911db36bb1b3aaf</Hash>
+  <ProgLanguage mixed="0">Python2</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description>运行DLL</Description>
+  <Version>0.1</Version>
+  <Author>Xuwb</Author>
+  <Email>Xuwb@landicorp.com</Email>
+  <Sources>
+    <Source>DLLDialog.py</Source>
+    <Source>MainDialog.py</Source>
+    <Source>Ui_MainDialog.py</Source>
+    <Source>__init__.py</Source>
+  </Sources>
+  <Forms>
+    <Form>MainDialog.ui</Form>
+  </Forms>
+  <Translations/>
+  <Resources/>
+  <Interfaces/>
+  <Others/>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py2" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw2" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+  </FiletypeAssociations>
+</Project>

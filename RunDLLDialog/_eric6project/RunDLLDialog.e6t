@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project RunDLLDialog -->
+<!-- Saved: 2016-08-25, 09:59:36 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{43d586d5-6b02-4fb8-9a4a-bff194fe40d6}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2016-07-04, 17:39:31</Created>
+    <Resource>
+      <Filename>DLLDialog.py</Filename>
+      <Linenumber>36</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{2aa3cbe5-d036-45de-a0c8-24f7b3d30a2b}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2016-07-04, 17:39:31</Created>
+    <Resource>
+      <Filename>DLLDialog.py</Filename>
+      <Linenumber>45</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{272b259b-1752-4c68-b7be-9bfbd7db1475}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2016-07-04, 17:39:31</Created>
+    <Resource>
+      <Filename>DLLDialog.py</Filename>
+      <Linenumber>57</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{4f5c76b8-cdb8-413f-8c68-b2896d55c911}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2016-07-04, 17:39:31</Created>
+    <Resource>
+      <Filename>DLLDialog.py</Filename>
+      <Linenumber>65</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{eca0c453-18a6-4475-ba11-d330df4f999b}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2016-07-04, 17:39:31</Created>
+    <Resource>
+      <Filename>DLLDialog.py</Filename>
+      <Linenumber>76</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ff5d8791-2bec-4104-bd07-a976c70b421a}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2016-07-04, 17:39:31</Created>
+    <Resource>
+      <Filename>DLLDialog.py</Filename>
+      <Linenumber>87</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

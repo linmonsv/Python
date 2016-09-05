@@ -1,0 +1,66 @@
+           中国建设银行
+	POS签购单      请妥善保管
+---------------------------------
+商户名称(MERCHANT NAME):
+  中国建设银行测试商户
+商户号(MERCHANT NO):
+  123456789012345 #0001
+终端号(TERMINAL NO):
+  12345678
+操作员号(OPERATOR NO):01
+发卡行名:建设银行
+收单行号:建设银行
+卡号(CARD NO):
+  6222 02** **** ***4 754 (M)
+交易类型(TRANS TYPE):
+  退货/REFUND
+批次号(BATCH NO):000009  
+凭证号(VOUCHER NO):000007
+参考号(REFER NO):250704093727
+日期时间(DATE TIME):
+  2016-07-04 09:37:27
+有效期(EXP DATE):49/12
+金额(AMOUNT):RMB 0.01
+备注(REFERENCE):
+原参考号(OLDREFNO):000000000167
+原交易日期(OLDDATE):11/19
+---------------------------------
+本人确认以上交易,同意将其记入本卡帐户
+I ACKNOWLEDGE SATISFACTORY RECEIPT OF
+ RELATIVE  GOODS/SERVICE
+持卡人签名(SIGNATURE):
+
+商户存根(MERCHANT COPY)
+终端序列号(S/N):82574004
+终端版本号(Ver):00000607150901
+#CUT#
+           中国建设银行     
+	POS签购单      请妥善保管
+---------------------------------
+商户名称(MERCHANT NAME):
+  中国建设银行测试商户
+商户号(MERCHANT NO):
+  123456789012345 #0001
+终端号(TERMINAL NO):
+  12345678
+操作员号(OPERATOR NO):01
+发卡行名:建设银行
+收单行号:建设银行
+卡号(CARD NO):
+  6222 02** **** ***4 754 (M)
+交易类型(TRANS TYPE):
+  退货/REFUND
+批次号(BATCH NO):000009  
+凭证号(VOUCHER NO):000007
+参考号(REFER NO):250704093727
+日期时间(DATE TIME):
+  2016-07-04 09:37:27
+有效期(EXP DATE):49/12
+金额(AMOUNT):RMB 0.01
+备注(REFERENCE):
+原参考号(OLDREFNO):000000000167
+原交易日期(OLDDATE):11/19
+---------------------------------
+持卡人存根(MERCHANT COPY)
+终端序列号(S/N):82574004
+终端版本号(Ver):00000607150901

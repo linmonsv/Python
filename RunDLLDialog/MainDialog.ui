@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>911</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>测试DLL小工具</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QPushButton" name="FindDLLButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>浏览...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ReadResButton">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>370</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>通过文本读取
+返回结构体</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RunDLLButton">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>370</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>运行DLL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ReadReqButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>370</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>通过文本读取
+请求结构体</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_FunName">
+   <property name="geometry">
+    <rect>
+     <x>632</x>
+     <y>10</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>10</y>
+     <width>138</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>需要运行DLL的方法名称：</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>43</y>
+     <width>371</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回结构体</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>43</y>
+     <width>371</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请求结构体</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_DLL">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>10</y>
+     <width>361</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_Req">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>371</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_Res">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>60</y>
+     <width>371</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ReadTXTReqButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>通过字符串读取
+请求结构体</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ReadTXTResButton">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>370</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>通过字符串读取
+返回结构体</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>60</y>
+     <width>131</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>393</x>
+     <y>40</y>
+     <width>126</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>字符串</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TXT2ResButton">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>370</y>
+     <width>111</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>将字符串转换为
+返回结构体</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TXT2ReqButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>370</y>
+     <width>111</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>将字符串转换为
+请求结构体</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

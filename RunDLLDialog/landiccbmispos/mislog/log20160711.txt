@@ -1,0 +1,22 @@
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(200): 日志保存路径:D:\Code\Python\RunDLLDialog\landiccbmispos\mislog\
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(201): 日志级别:0
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(202): 日志最大保存文件数:35
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(203): 日志是否包含头:1
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(204): 配置文件路径:D:\Code\Python\RunDLLDialog\landiccbmispos\log.ini
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(293): SocketTimeout=90s
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(294): FirstComTimeout=120s
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(295): SecondComTimeout=75s
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(296): GetPrintDataTimeout=80s
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(297): GetSummDataTimeout=60s
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(298): PrintServerPacket=0
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(299): RecvServerCheck=1
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(350): retry.SocketTime=3s
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(351): retry.LoopSleep=500ms
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(352): retry.LoopTimes=1
+2016-07-11 15:33:15 [DEBUG] CardMisDll.cpp(353): ServerFlag=1
+2016-07-11 15:33:15 [INFO] CardMisDll.cpp(89): 动态库加载成功
+2016-07-11 15:35:19 [TRACE] CardMisDll.cpp(94): 析构释放tlvmap...
+2016-07-11 15:35:19 [TRACE] CardMisDll.cpp(360): tlvMap items=0, begin clear...
+2016-07-11 15:35:19 [TRACE] CardMisDll.cpp(375): tlvMap is empty.
+2016-07-11 15:35:19 [INFO] CardMisDll.cpp(97): 动态库释放成功
+
