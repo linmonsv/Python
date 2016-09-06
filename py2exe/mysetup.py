@@ -4,6 +4,8 @@ from distutils.core import setup
 import py2exe
 import sys
 import os
+from PyQt4 import QtGui
+from PyQt4 import QtCore
 
 def list(path, dirlist = [], suffix = ""):
 	fileobj = os.listdir(path)
@@ -26,7 +28,12 @@ if path[len(path) - 1] != '\\':
 print(path)
 
 if __name__ == '__main__':
-	list(path, dirlist, ".py")
-	print(dirlist)
-	szStbuf = raw_input("ÇëÊäÈëÒª×ª»»µÄpythonÎÄ¼şÃû:")
-	setup(options=options, zipfile=None, console=[{"script": szStbuf}])
+	# list(path, dirlist, ".py")
+	# print(dirlist)
+	# szStbuf = raw_input("è¯·è¾“å…¥è¦è½¬æ¢çš„pythonæ–‡ä»¶å:")
+	app = QtGui.QApplication(sys.argv)
+	str = QtGui.QFileDialog.getOpenFileName(None, u"è¯·é€‰æ‹©Pythonæ–‡ä»¶", ".", "python Files(*.py);ALL (*.*)", None)
+	if str != "" :
+		setup(options=options, zipfile=None, console=[{"script": unicode(QtCore.QString(str).toUtf8(), 'utf8', 'ignore')}])
+		os.system("Explorer /select," + path + "dist\\" + unicode(QtCore.QString(str).toUtf8(), 'utf8', 'ignore').split('/')[-1][:-3] + ".exe")
+		pass
